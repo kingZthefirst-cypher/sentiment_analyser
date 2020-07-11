@@ -23,10 +23,10 @@ python manage.py runserver
 ```
 ### This will host the django backend on localhost:8000
 ### 5. Hit http://localhost:8000/sentiment with post json data in the form-
-``` json
+``` python
 {"text": "your text"}
 ```
 ### 6. Response structure is-
-``` json
-{"text": "your text", "sentiment": 60 // values are between [-100, 100]}
+``` python
+{"text": "your text", "sentiment": 60 # values are between [-100, 100]}
 ```
