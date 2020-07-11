@@ -30,3 +30,5 @@ python manage.py runserver
 ``` python
 {"text": "your text", "sentiment": 60 # values are between [-100, 100]}
 ```
+
+### Repo for the React-UI- https://github.com/raj-saumya/sentiment-analysis
