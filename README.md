@@ -5,7 +5,7 @@ Used flairNlp library (link- https://github.com/flairNLP/flair) for out of the b
 ### Steps-
 ### 1. Cloning the repo and change directory into the repo
 ``` bash
-git clone https://github.com/kingZthefirst-cypher/sentiment_analyser.git
+git clone https://github.com/Sinha-Ujjawal/sentiment_analyser.git
 cd sentiment_analyser
 ```
 ### Note- I have used python 3.7.6
