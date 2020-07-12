@@ -10,8 +10,26 @@ cd sentiment_analyser
 ```
 ### Note- I have used python 3.7.6
 ### 2. Install dependencies
+#### 2.1 Installing pytorch
+##### If you have cuda 9.2
 ``` bash
-pip install requirements.txt
+pip install torch==1.5.1+cu92 torchvision==0.6.1+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+```
+##### If you have cuda 10.1
+``` bash
+pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+```
+##### If you have cuda 10.2
+``` bash
+pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html
+```
+##### If you dont have gpu or cuda
+``` bash
+pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+```
+#### 2.2 Installing remaining dependencies from requirements.txt
+``` bash
+pip install -r requirements.txt
 ```
 ### 3. Change directory django project
 ``` bash
