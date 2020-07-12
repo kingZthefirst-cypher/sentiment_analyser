@@ -1,5 +1,5 @@
 # sentiment_analyser
-Used flairNlp library (link- https://github.com/flairNLP/flair) for out of the box sentiment analyser model, and built a rest API aroud it using django rest framework.
+Used flairNlp library (link- https://github.com/flairNLP/flair) for out of the box sentiment analyser model, and built a rest API around it using django rest framework.
 ## Usage-
 
 ### Steps-
