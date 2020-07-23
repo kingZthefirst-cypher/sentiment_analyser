@@ -1,3 +1,4 @@
+from typing import Callable
 from rest_framework.views import APIView
 from rest_framework.response import Response
 import flair
@@ -5,7 +6,7 @@ import flair
 # Create your views here.
 
 
-def init_sentiment_analyser():
+def init_sentiment_analyser() -> Callable[[str], int]:
     flair_sentiment = flair.models.TextClassifier.load("en-sentiment")
 
     def sentiment_analyser(text: str) -> int:
